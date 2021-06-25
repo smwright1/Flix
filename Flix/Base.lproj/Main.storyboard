@@ -21,9 +21,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <searchBar key="tableHeaderView" contentMode="redraw" barStyle="blackTranslucent" placeholder="Movie" id="ZXG-70-pWS">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="135" id="s9l-FB-qtf" customClass="MovieCell">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="135"/>
+                                        <rect key="frame" x="0.0" y="68.5" width="414" height="135"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s9l-FB-qtf" id="wBk-cX-Eiw">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="135"/>
@@ -74,6 +79,7 @@
                     <navigationItem key="navigationItem" title="Now Playing" id="H16-qS-cfn"/>
                     <connections>
                         <outlet property="activityIndicator" destination="Jgw-XX-qBD" id="1WO-dY-grP"/>
+                        <outlet property="searchBar" destination="ZXG-70-pWS" id="yHL-u2-Nxg"/>
                         <outlet property="tableView" destination="Vp0-BR-lks" id="B9C-oB-Y1h"/>
                     </connections>
                 </viewController>
@@ -162,6 +168,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemOrangeColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="xcf-Xa-2uP" kind="relationship" relationship="viewControllers" id="xuy-io-uEQ"/>
@@ -180,6 +188,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aq6-iw-w3K">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" systemColor="systemGray6Color"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="5lX-E9-NOJ" kind="relationship" relationship="rootViewController" id="QaY-n8-vUg"/>
@@ -255,6 +267,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jbQ-eo-THL">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" systemColor="systemGray6Color"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -266,6 +282,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
         </scene>
     </scenes>
+    <color key="tintColor" systemColor="systemOrangeColor"/>
     <resources>
         <image name="film" catalog="system" width="128" height="93"/>
         <image name="square.grid.2x2.fill" catalog="system" width="128" height="114"/>
