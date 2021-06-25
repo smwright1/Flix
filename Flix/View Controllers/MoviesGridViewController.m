@@ -28,8 +28,11 @@
     
     UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *) self.collectionView.collectionViewLayout;
     
+    layout.minimumInteritemSpacing = 5;
+    layout.minimumLineSpacing = 5;
+    
     CGFloat postersPerRow = 2;
-    CGFloat width = self.collectionView.frame.size.width / postersPerRow;
+    CGFloat width = (self.collectionView.frame.size.width - layout.minimumInteritemSpacing * (postersPerRow - 1)) / postersPerRow;
     CGFloat height = width * 1.5;
     layout.itemSize = CGSizeMake(width, height);
 }
