@@ -21,6 +21,8 @@
 		8220D0FB2683943900567F73 /* FlixUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8220D0FA2683943900567F73 /* FlixUITests.m */; };
 		8220D10A2683A00C00567F73 /* MoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8220D1092683A00C00567F73 /* MoviesViewController.m */; };
 		8220D1102683FD9500567F73 /* MovieCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8220D10F2683FD9500567F73 /* MovieCell.m */; };
+		825AC4F52685A07A009AA701 /* MovieCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AC4F42685A07A009AA701 /* MovieCollectionCell.m */; };
+		825AC4F82685A14E009AA701 /* MoviesGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 825AC4F72685A14E009AA701 /* MoviesGridViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		8220D1092683A00C00567F73 /* MoviesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesViewController.m; sourceTree = "<group>"; };
 		8220D10E2683FD9500567F73 /* MovieCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCell.h; sourceTree = "<group>"; };
 		8220D10F2683FD9500567F73 /* MovieCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCell.m; sourceTree = "<group>"; };
+		825AC4F32685A07A009AA701 /* MovieCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieCollectionCell.h; sourceTree = "<group>"; };
+		825AC4F42685A07A009AA701 /* MovieCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieCollectionCell.m; sourceTree = "<group>"; };
+		825AC4F62685A14E009AA701 /* MoviesGridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoviesGridViewController.h; sourceTree = "<group>"; };
+		825AC4F72685A14E009AA701 /* MoviesGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoviesGridViewController.m; sourceTree = "<group>"; };
 		C21D052D2FCFC893AAF80090 /* Pods_FlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C73A9F560DE86D45D8FAB53D /* Pods-FlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.release.xcconfig"; path = "Target Support Files/Pods-FlixTests/Pods-FlixTests.release.xcconfig"; sourceTree = "<group>"; };
 		CD820353ADCA243CC1961946 /* Pods-FlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlixTests.debug.xcconfig"; path = "Target Support Files/Pods-FlixTests/Pods-FlixTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -168,6 +174,8 @@
 				8220D1092683A00C00567F73 /* MoviesViewController.m */,
 				820D16A4268555570024D44F /* DetailsViewController.h */,
 				820D16A5268555570024D44F /* DetailsViewController.m */,
+				825AC4F62685A14E009AA701 /* MoviesGridViewController.h */,
+				825AC4F72685A14E009AA701 /* MoviesGridViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -177,6 +185,8 @@
 			children = (
 				8220D10E2683FD9500567F73 /* MovieCell.h */,
 				8220D10F2683FD9500567F73 /* MovieCell.m */,
+				825AC4F32685A07A009AA701 /* MovieCollectionCell.h */,
+				825AC4F42685A07A009AA701 /* MovieCollectionCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -451,7 +461,9 @@
 				8220D0D52683943700567F73 /* AppDelegate.m in Sources */,
 				8220D1102683FD9500567F73 /* MovieCell.m in Sources */,
 				8220D10A2683A00C00567F73 /* MoviesViewController.m in Sources */,
+				825AC4F52685A07A009AA701 /* MovieCollectionCell.m in Sources */,
 				820D16A6268555570024D44F /* DetailsViewController.m in Sources */,
+				825AC4F82685A14E009AA701 /* MoviesGridViewController.m in Sources */,
 				8220D0E62683943900567F73 /* main.m in Sources */,
 				8220D0D82683943700567F73 /* SceneDelegate.m in Sources */,
 			);
