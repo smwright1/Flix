@@ -73,7 +73,7 @@
                    NSLog(@"%@", movie[@"title"]);
                }
                
-               sleep(1);
+//               sleep(1);
                [self.activityIndicator stopAnimating];
                
                // TODO: Reload your table view data
