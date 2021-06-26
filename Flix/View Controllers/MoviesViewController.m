@@ -103,6 +103,10 @@
     NSURL *posterURL = [NSURL URLWithString:fullPosterURLString];
     [cell.posterView setImageWithURL:posterURL];
     
+    UIView *backgroundView = [[UIView alloc] init];
+    backgroundView.backgroundColor = UIColor.systemOrangeColor;
+    cell.selectedBackgroundView = backgroundView;
+    
     return cell;
 }
 

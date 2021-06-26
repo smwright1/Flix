@@ -24,7 +24,7 @@
                                 <searchBar key="tableHeaderView" contentMode="redraw" barStyle="blackTranslucent" placeholder="Movie" id="ZXG-70-pWS">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                    <textInputTraits key="textInputTraits" keyboardAppearance="alert"/>
+                                    <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="search"/>
                                 </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MovieCell" rowHeight="135" id="s9l-FB-qtf" customClass="MovieCell">

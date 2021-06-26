@@ -43,6 +43,9 @@
     [self.titleLabel sizeToFit];
     [self.descriptionLabel sizeToFit];
     [self.dateLabel sizeToFit];
+    
+    [self.posterView.layer setBorderColor: [[UIColor whiteColor] CGColor]];
+    [self.posterView.layer setBorderWidth: 1.0];
 }
 
 /*
